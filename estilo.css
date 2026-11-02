@@ -109,6 +109,7 @@ div{
     max-width: 250px;
     min-width: 100px;
     border-radius: 10px;
+    font-size:3.5vw;
 
     img{max-width: 25px; min-width: 5; }  
 }
