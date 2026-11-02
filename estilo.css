@@ -3,10 +3,11 @@
 *{
     margin: 0px;
     padding: 0px;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-
+   
     background-color: #000000;
     background-image: url("imagens/background001.jpg");
      background-position: center center;
@@ -15,15 +16,14 @@ header{
     color: #FFFF;
     text-align: center;
     padding-top:10px;
-    line-height:25px;  
+    
 }
 header > h1 {
-    padding-top: 50px;
+    padding-top: -10px;
     font-variant: small-caps;
     background-color: #000000d4;
     max-width: 400px;
-    min-width: 250px;
-    height: 50px;
+    min-width: 100px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 30px;   
@@ -41,6 +41,7 @@ a:hover{
    
 }
 section{
+    
     background-color: darkgray;
     line-height: 2em;
     padding-top: 10vh ;
@@ -51,17 +52,22 @@ section.normal{
     background-color: #FFFF;
     box-shadow: 0px 0px 50px;
     color: #000000;
+    
 }
 section.imagem{
     background-color: #0000004f;
-    color: #ffffff;   
+    color: #ffffff; 
+   
+      
+   
 }
 section.imagem > p{
  background-color: #0000004e;
  border-radius: 10px;
- width: 400px;
+ max-width: 350px;
+ min-width: 150px;
  padding-left: 10px;
-    box-shadow: 0px 0px 5px;
+box-shadow: 0px 0px 5px;
  
 }
 section#img1{
@@ -69,22 +75,26 @@ section#img1{
      background-position: center center;
      background-size: cover;
      background-attachment: fixed;
+    
 }
 section#img2{
     background-image: url("imagens/background002.jpg");
      background-position: center center;
      background-size: cover;
      background-attachment: fixed;
+  
 }
 
 footer{
+   
     background-color: #000000;
     color: #080101;
     text-align: center;
      background-image: url("imagens/background002.jpg");
-     background-position: center center;
+     background-position: right top;
      background-size: cover;
      background-attachment: fixed;
+     
      
     
    
@@ -94,14 +104,21 @@ div{
     gap: 5px;
     margin: 10px;
     box-shadow: 0px 0px 10px;
-    width: 250px;
+    max-width: 250px;
+    min-width: 100px;
     border-radius: 10px;
-    img{width: 25px;}  
+
+    img{max-width: 25px; min-width: 5; }  
 }
 .telefone{
-    color: #ffffff;
+    color: #fdfafa;
+    
    
-    img{width: 30px; border-radius: 30px; }
+    img{
+        max-width: 30px;
+        min-width: 5px;
+        border-radius: 30px;
+     }
 }
 
 
