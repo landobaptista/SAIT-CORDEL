@@ -25,7 +25,7 @@ header > h1 {
     padding-top: -10px;
     font-variant: small-caps;
     background-color: #000000d4;
-    max-width: 400px;
+    max-width: 80vw;
     min-width: 100px;
     margin: auto;
     border-radius: 10px;
@@ -52,6 +52,9 @@ section{
     padding-left: 30px;
     font-size:3.5vw;   
 }
+section > p{
+    padding:10px;
+}
 section.normal{
     background-color: #FFFF;
     box-shadow: 0px 0px 50px;
@@ -74,7 +77,7 @@ section.imagem > p{
 }
 section#img1{
     background-image: url("imagens/background001.jpg");
-     background-position: right center;
+     background-position: center center;
      
     
 }
